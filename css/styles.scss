@@ -2,16 +2,20 @@ html {
 	box-sizing: border-box;
 	font-family: "Nothing You Could Do";
 }
-
 *,
 *:before,
 *:after {
 	box-sizing: inherit;
 }
+$aqua: #00CED1;
+$blueberry: #2575fc;
+$grape: #6a11cb;
+$darkcloud: #8f959a;
 
 html,
 body {
 	height: 100%;
+  background: linear-gradient(0deg, $grape 0%, $darkcloud 100%);
 }
 
 body {
