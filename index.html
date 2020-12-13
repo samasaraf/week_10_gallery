@@ -8,63 +8,161 @@
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap core CSS -->
+        <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/pricing/">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+    <body>
+        <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white"></h4>
+              <p class="text-muted"></p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                <li><a href="#" class="text-white">Like on Facebook</a></li>
+                <li><a href="#" class="text-white">Email me</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <img class="logo" src="images/logo.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+
+<!--main section-->
+      <section class="jumbotron text-center">
+        <div class="container">
+          <p class="description">this is where I tell you stuff about me</p>
+            <div>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Click me!</button>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> Interesting right</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="location" src="images/location.jpg" alt="location">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+
+            <!--first card-->
+            <div class="col-md-6">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="images/ipa.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Images</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">Tell me more</button>
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel1">heading</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <p>Ballast Point Sculpin IPA is a trophy beer that s a testament to Ballast Point's homebrew roots. Sculpin IPA's inspired use of hops creates hints of apricot, peach, mango, and lemon flavors, but still pks a bit of a sting, just like a Sculpin fish. International Bitterness Units (IBUs) = 70/100. Craft beer brewed in San Diego, California since 1996. Best served chilled.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--second card-->
+            <div class="col-md-6">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="images/hop.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Resume</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">Learn More</button>
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel2">Product Description</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <p>California- American IPA- 7% ABV. Our Unfiltered Sculpin IPA packs hops into every sip, enhancing the classic Sculpin notes of fresh apricot, peach, mango and lemon with a slight haze and less bitterness. Freshness is key to every beer, but especially true for this extra-hopped IPA.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+    </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-  </head>
-
-  <body>
-
-    <h1>How to wake up early?</h1>
-
-    <!--<div class="board">
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-		</div>
-
-		<p>
-      <img src="images/kitten.png" id="my_image" class="animal">
-    </p>
-
-		<button id="my_button" class="btn btn-primary">Button</button>-->
-    <div class="container">
-    <div class="inner-container">
-        <div class="card inactive-1"></div>
-        <div class="card inactive-2"></div>
-        <div class="card">
-            <div class="content active">
-                <h1>Step 1</h1>
-                <p> Set an alarm the night before <i class="em em-alarm_clock" aria-role="presentation" aria-label="ALARM CLOCK"></i></p>
-                <a class="button" href="#">Next step &rarr;</a>
-            </div>
-            <div class="content">
-                <h1>Step 2</h1>
-                <p>Press snooze when it rings in the morning and...<i class="em em-sleeping_accommodation" aria-role="presentation" aria-label="SLEEPING ACCOMMODATION"></i> </p>
-                <a class="button" href="#">Next step &rarr;</a>
-            </div>
-            <div class="content">
-                <h1>Step 3</h1>
-                <p>Go back to bed ! You deserve some rest <i class="em em-sleeping" aria-role="presentation" aria-label="SLEEPING FACE"></i></p>
-                <a class="button" href="#">Next step &rarr;</a>
-            </div>
-            <div class="progress-container">
-                <div class="step"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
 	</body>
 
 </html>
